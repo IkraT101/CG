@@ -1,20 +1,23 @@
 body {
-  color: black;
-  margin: 10px;
-  /* background-image: url(https://i.imgur.com/5YQzMyf.png); */
-  background-size: contain;
+  background-color: white;
   background-repeat: no-repeat;
-  background-position: center;
 }
+
 
 div {
   display: flex;
   justify-content: center;
 }
-h1 {
-  color: black;
-  font-family: Lucinda;
-  font-size: 4em;
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+#Q {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 h2 {
