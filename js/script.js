@@ -16,11 +16,10 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-// navigator.serviceWorker.register('/sw.js', {
-//   scope: '/'
-// });
-navigator.serviceWorker.register('/js/sw.js');
-console.log('DoesThisShowUp?');
+else {
+  navigator.serviceWorker.register('/js/sw.js');
+  console.log('First time registration.');
+}
 
 //if('serviceWorker' in navigator) {
 //  console.log('CLIENT: service worker registration in progress.');
