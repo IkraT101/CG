@@ -31,6 +31,16 @@
 //} else {
 //  console.log('CLIENT: service worker is not supported.');
 //}
-
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}  
 
 console.log('Hello from service-worker.js');
