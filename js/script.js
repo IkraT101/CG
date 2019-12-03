@@ -8,10 +8,10 @@
 if ('serviceWorker' in navigator) {
  window.addEventListener('load', function() {
    navigator.serviceWorker.register('/js/sw.js').then(function(registration) {
-      Registration was successful
+      console.log('Registration was successful);
     .then((ref) => console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, function(err) {
-      registration failed :(
+      console.log('registration failed :(');
     .catch((err)) => console.log('ServiceWorker registration failed: ', err);
     });
   });
