@@ -13,7 +13,8 @@ if ('serviceWorker' in navigator) {
     console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, function(err) {
       console.log('registration failed :(');
-    .catch((err)) => console.log('ServiceWorker registration failed: ', err);
+    //.catch((err)) =>
+    console.log('ServiceWorker registration failed: ', err);
     });
   });
 }
