@@ -20,14 +20,14 @@ div {
 
 }
 
-
-#comic {
-
+#SM {
+  display: flex;
+  justify-content: space-around;
 }
+
 #Q {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 
 #sb {
@@ -109,13 +109,6 @@ h1 {
   font-size: 4em;
 }
 
-
-img {
-  margin: 50;
-  padding: 20px;
-  border-radius: 250px;
-  size: 400px;
-}
 
 
 h2 {
