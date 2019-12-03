@@ -133,7 +133,8 @@ input[type=text] {
 
 .column {
   float: left;
-  width: 25%;
+  width: 40%;
+  height: 50%;
   padding: 5px;
 }
 
@@ -141,4 +142,8 @@ input[type=text] {
   content: "";
   clear: both;
   display: table;
+}
+
+#comic {
+  height: 300px;
 }
