@@ -1,7 +1,7 @@
 body {
   background-color: white;
   margin: 10px;
-  background-image: url(https://i.pinimg.com/originals/d4/6e/b7/d46eb7448bcd113f7af1d9619a073c9b.png);
+  background-image: url(https://i.pinimg.com/originals/ed/9d/3b/ed9d3b1f856196575aa340b1ac954ba6.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -14,10 +14,15 @@ div {
   justify-content: center;
 }
 
-#title {
+#comic {
   display: flex;
-  justify-content: center;
-  align-self: center;
+  justify-content:flex-start;
+
+}
+
+
+#comic {
+
 }
 #Q {
   display: flex;
@@ -27,9 +32,8 @@ div {
 
 #sb {
   display: flex;
-  align-self: center;
   justify-content: flex-start;
-
+  align-content: center;
 }
 
 h2 {
@@ -81,11 +85,6 @@ div {
   display: flex;
   justify-content: center;
 
-}
-
-#tips{
-  display: flex;
-  flex-direction: row;
 }
 
 
