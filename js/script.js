@@ -5,23 +5,23 @@
 // }
 
 
-if ('serviceWorker' in navigator) {
- window.addEventListener('load', function() {
-   navigator.serviceWorker.register('/js/sw.js').then(function(registration) {
-    //.then((ref) =>
-    console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-    //.catch((err)) =>
-    console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
-else {
-  navigator.serviceWorker.register('/js/sw.js');
-  console.log('First time registration.');
-}
-
-//if('serviceWorker' in navigator) {
+// if ('serviceWorker' in navigator) {
+//  window.addEventListener('load', function() {
+//    navigator.serviceWorker.register('/js/sw.js').then(function(registration) {
+//     //.then((ref) =>
+//     console.log('ServiceWorker registration successful with scope: ', registration.scope);
+//     }, function(err) {
+//     //.catch((err)) =>
+//     console.log('ServiceWorker registration failed: ', err);
+//     });
+//   });
+// }
+// else {
+//   navigator.serviceWorker.register('/js/sw.js');
+//   console.log('First time registration.');
+// }
+//
+// //if('serviceWorker' in navigator) {
 //  console.log('CLIENT: service worker registration in progress.');
 //  navigator.serviceWorker.register('/sw.js').then(function() {
 //    console.log('CLIENT: service worker registration complete.');
