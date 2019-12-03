@@ -11,3 +11,119 @@ div {
   display: flex;
   justify-content: center;
 }
+h1 {
+  color: black;
+  font-family: Lucinda;
+  font-size: 4em;
+}
+
+h2 {
+  color: black;
+  font-family: Lucinda;
+}
+
+p {
+  font-family: monospace;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+=======
+  margin: 10px;
+  background-image: url(https://i.imgur.com/5YQzMyf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+#introT1 {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-family: cursive;
+}
+#introT2 {
+  display: flex;
+  justify-content: center;
+
+}
+
+#tips{
+  display: flex;
+  flex-direction: row;
+}
+
+
+#intro {
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-content: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: black;
+  font-family: monospace;
+  font-size: 4em;
+}
+
+
+img {
+  margin: 50;
+  padding: 20px;
+  border-radius: 250px;
+  size: 400px;
+}
+
+
+h2 {
+  color: black;
+  font-family: monospace;
+}
+
+
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+
+}
