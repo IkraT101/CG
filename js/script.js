@@ -19,7 +19,7 @@ if ('serviceWorker' in navigator) {
 // navigator.serviceWorker.register('/sw.js', {
 //   scope: '/'
 // });
-navigator.serviceworker.register('sw.js');
+navigator.serviceWorker.register('/js/sw.js');
 
 //if('serviceWorker' in navigator) {
 //  console.log('CLIENT: service worker registration in progress.');
