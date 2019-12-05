@@ -31,8 +31,6 @@ console.log('Hello from service-worker.js');
 //   }
 
 
-$('.carousel').carousel(('cycle') {
-  console.dir(left);
-  interval:100;
-  pause:"hover";
-})
+$('.carousel').carousel(('cycle')
+data-interval: "1000"
+)
