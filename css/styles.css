@@ -1,7 +1,7 @@
 body {
   background-color: white;
   margin: 10px;
-  background-image: url(https://i.pinimg.com/originals/ed/9d/3b/ed9d3b1f856196575aa340b1ac954ba6.jpg);
+  background-image: url(https://i.pinimg.com/originals/cd/4b/a7/cd4ba7116b976dae49b8d6d7f47da092.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -14,15 +14,16 @@ div {
   justify-content: center;
 }
 
-#comic {
+div.carousel {
   display: flex;
-  justify-content: flex-start;
 
 }
 
+
 #SM {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+
 }
 
 #Q {
@@ -116,12 +117,25 @@ h2 {
   font-family: monospace;
 }
 
+img {
+  border-radius: 250px;
+  justify-content: flex-start;
+}
+
 
 input[type=text] {
   width: 130px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 
+}
+#gif {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+.center {
+  text-align: justify;
 }
 
 .column {
