@@ -140,3 +140,7 @@ input[type=text] {
 #comic {
   height: 300px;
 }
+
+#title {
+  padding: 10px;
+}
