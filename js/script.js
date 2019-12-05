@@ -13,7 +13,6 @@ if ('serviceWorker' in navigator) {
 
 console.log('Hello from service-worker.js');
 
-
 <meta name="google-signin-client_id" content="90282911210-qmmf4muu6de08ogh5tn0qrm3e0jj78an.apps.googleusercontent.com">
 
 function onSignIn(googleUser) {
