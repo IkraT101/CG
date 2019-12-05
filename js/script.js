@@ -29,3 +29,9 @@ console.log('Hello from service-worker.js');
 //       console.log('User signed out.');
 //     });
 //   }
+
+
+$('.carousel').carousel(('cycle') {
+  console.dir(left);
+  interval:100;
+})
