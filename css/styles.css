@@ -20,11 +20,11 @@ div {
 } */
 
 
-/* #SM {
+#SM {
   display: flex;
   justify-content: flex-end;
 
-} */
+}
 
 #Q {
   display: flex;
@@ -119,7 +119,6 @@ h2 {
 
 img {
   border-radius: 300px;
-  justify-content: flex-start;
 }
 
 
