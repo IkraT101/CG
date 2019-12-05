@@ -1,7 +1,7 @@
 body {
   background-color: white;
   margin: 10px;
-  background-image: url(https://i.pinimg.com/originals/cd/4b/a7/cd4ba7116b976dae49b8d6d7f47da092.jpg);
+  background-image: url(https://i.pinimg.com/originals/7a/46/c5/7a46c5615d816055cbb75a67293af82c.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -14,10 +14,10 @@ div {
   justify-content: center;
 }
 
-#carouselExampleIndicators{
+/* #carouselExampleIndicators{
   display: flex;
 
-}
+} */
 
 
 /* #SM {
