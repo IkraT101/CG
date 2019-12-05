@@ -14,17 +14,17 @@ div {
   justify-content: center;
 }
 
-div.carousel {
+#carouselExampleIndicators{
   display: flex;
 
 }
 
 
-#SM {
+/* #SM {
   display: flex;
   justify-content: flex-end;
 
-}
+} */
 
 #Q {
   display: flex;
