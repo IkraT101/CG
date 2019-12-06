@@ -20,11 +20,10 @@ div {
 } */
 
 
-#SM {
+/* #SM {
   display: flex;
-  justify-content: flex-end;
-
-}
+  align-content: flex-end;
+} */
 
 #Q {
   display: flex;
@@ -318,7 +317,7 @@ bottom: 0;
   color: white;
 }
 
-.item3{
+.item{
   display: block;
   position: absolute;
   width: 200px;
