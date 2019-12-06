@@ -307,6 +307,28 @@ top: 0;
 bottom: 0;
 }
 
+.item2{
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+  z-index: 1;
+  background: red;
+  color: white;
+}
+
+.item3{
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+  z-index: 1;
+  background: red;
+  color: white;
+}
+
 .lightbox-target:target img {
 max-height: 100%;
 max-width: 100%;
