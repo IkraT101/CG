@@ -21,7 +21,7 @@ $('#myCarousel').carousel({
 
 
 var grid = new Muuri('.grid');
-var grid = new Muuri('.grid', {dragEnabled: true});
+;
 var grid = new Muuri(elem, {
   layout: {
     fillGaps: true,
@@ -31,6 +31,7 @@ var grid = new Muuri(elem, {
     rounding: false
   }
 });
+var grid = new Muuri('.grid', {dragEnabled: true})
 
 //
 // // Use specific items.
