@@ -93,3 +93,7 @@ var grid = new Muuri('.grid', {dragEnabled: true})
 //     return layout;
 //   }
 // });
+
+function myFunction() {
+  alert("Click on the buttons to load the pages");
+}
