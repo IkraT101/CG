@@ -31,7 +31,9 @@ var grid = new Muuri(elem, {
     rounding: false
   }
 });
-var grid = new Muuri('.grid', {dragEnabled: true})
+var grid = new Muuri('.grid', {
+  dragEnabled: true
+})
 
 //
 // // Use specific items.
@@ -93,3 +95,7 @@ var grid = new Muuri('.grid', {dragEnabled: true})
 //     return layout;
 //   }
 // });
+
+function myFunction() {
+  alert("Click on the buttons to load the pages");
+}
