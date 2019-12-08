@@ -109,6 +109,17 @@ h1 {
   font-size: 4em;
 }
 
+.Cg {
+  position:relative;
+  left:-200px;
+  top:590px;
+}
+
+.wq {
+  position:relative;
+  left:200px;
+  top:550px;
+}
 
 
 h2 {
@@ -117,7 +128,7 @@ h2 {
 }
 
 img {
-  border-radius: 300px;
+  border-radius: 10px;
 }
 
 
@@ -128,9 +139,9 @@ input[type=text] {
 
 }
 #gif {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
+  position:relative;
+  left:-380px;
+  top:450px;
 }
 .center {
   text-align: justify;
@@ -141,6 +152,7 @@ input[type=text] {
   width: 40%;
   height: 50%;
   padding: 5px;
+
 }
 
 .row::after {
@@ -324,8 +336,8 @@ a.lightbox-close:after {
   height: 100px;
   margin: 5px;
   z-index: 1;
-  background: red;
-  color: white;
+  background: white;
+  color: black;
 }
 
 .lightbox-target:target img {
@@ -335,4 +347,36 @@ a.lightbox-close:after {
 
 .lightbox-target:target a.lightbox-close {
   top: 0px;
+}
+
+
+
+.about {
+  position:relative;
+  right:290px;
+  top:10px;
+}
+
+.mb {
+  position:relative;
+  right:790px;
+  top:125px;
+}
+
+.pf {
+  position:relative;
+  right:190px;
+  top:160px;
+}
+
+.phrop {
+  position:relative;
+  left:780px;
+  top:70px;
+}
+
+.quest {
+  position:relative;
+  left:240px;
+  top:-200px;
 }
