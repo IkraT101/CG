@@ -97,5 +97,5 @@ var grid = new Muuri('.grid', {
 // });
 
 function myFunction() {
-  alert("Click on the buttons to load the pages");
+  alert("Welcome to Keele Creative Writing Society! Click on the symbols below to navigate the website! ");
 }
