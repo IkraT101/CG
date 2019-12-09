@@ -1,13 +1,14 @@
 body {
   background-color: white;
-  margin: 10px;
+  /* margin:-500px;
+  margin-right: -1000px; */
   background-image: url(https://i.pinimg.com/originals/7a/46/c5/7a46c5615d816055cbb75a67293af82c.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-  background-blend-mode: multiply;
-  white-space: nowrap;
+
 }
+
 
 div {
   display: flex;
@@ -53,7 +54,7 @@ div {
 
 }
 
-
+/*
 #intro {
   padding: 20px;
   margin-left: 150px;
@@ -62,7 +63,7 @@ div {
   margin-bottom: 10px;
   display: flex;
   align-content: center;
-}
+} */
 
 #buttons {
   display: flex;
@@ -122,6 +123,38 @@ h1 {
   left:240px;
   top:-200px;
 }
+
+
+.about2 {
+  position:relative;
+  right:290px;
+  top:-120px;
+}
+
+.mb2 {
+  position:relative;
+  right:790px;
+  top:-25px;
+}
+
+.pf2 {
+  position:relative;
+  right:190px;
+  top:30px;
+}
+
+.phrop2 {
+  position:relative;
+  left:780px;
+  top:-80px;
+}
+
+.quest2 {
+  position:relative;
+  left:240px;
+  top:-330px;
+}
+
 
 
 h2 {
@@ -329,4 +362,54 @@ a.lightbox-close:after {
 
 .lightbox-target:target a.lightbox-close {
   top: 0px;
+}
+
+.about3 {
+  position:relative;
+  right:290px;
+  top:-120px;
+}
+
+.mb3 {
+  position:relative;
+  right:790px;
+  top:0px;
+}
+
+.pf3 {
+  position:relative;
+  right:190px;
+  top:60px;
+}
+
+.phrop3 {
+  position:relative;
+  left:780px;
+  top:-50px;
+}
+
+.quest3 {
+  position:relative;
+  left:240px;
+  top:-310px;
+}
+
+ /* .wwts2 {
+  position:relative;
+  left: 600px;
+
+} */
+/*
+.video {
+  position:relative;
+   left: 50px;
+
+} */
+
+.video {
+    display:inline-flex;
+    width: 75%;
+  padding-left: 100px;
+
+
 }
