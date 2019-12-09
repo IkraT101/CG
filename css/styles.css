@@ -6,8 +6,11 @@ body {
   background-size: contain;
   background-position: bottom;
   background-blend-mode: multiply;
+  white-space: nowrap;
+  
 
 }
+
 
 div {
   display: flex;
