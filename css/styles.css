@@ -7,11 +7,7 @@ body {
   background-position: bottom;
   background-blend-mode: multiply;
   white-space: nowrap;
-
-
 }
-
-
 
 div {
   display: flex;
@@ -106,23 +102,58 @@ div {
   display: flex;
   justify-content: space-between;
 }
-
-h1 {
+/*
+/* h1 {
   color: black;
   font-family: monospace;
   font-size: 4em;
-}
+} */ */
 
 .Cg {
   position:relative;
   left:-200px;
-  top:590px;
+  top:490px;
 }
 
 .wq {
   position:relative;
   left:200px;
   top:550px;
+}
+#gif {
+  position:relative;
+  left:-380px;
+  top:450px;
+}
+
+.about {
+  position:relative;
+  right:290px;
+  top:10px;
+}
+
+.mb {
+  position:relative;
+  right:790px;
+  top:125px;
+}
+
+.pf {
+  position:relative;
+  right:190px;
+  top:160px;
+}
+
+.phrop {
+  position:relative;
+  left:780px;
+  top:70px;
+}
+
+.quest {
+  position:relative;
+  left:240px;
+  top:-200px;
 }
 
 
@@ -135,18 +166,13 @@ img {
   border-radius: 10px;
 }
 
-
 input[type=text] {
   width: 130px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
+}
 
-}
-#gif {
-  position:relative;
-  left:-380px;
-  top:450px;
-}
+
 .center {
   text-align: justify;
 }
@@ -156,7 +182,6 @@ input[type=text] {
   width: 40%;
   height: 50%;
   padding: 5px;
-
 }
 
 .row::after {
@@ -171,11 +196,10 @@ input[type=text] {
 
 
 
-
-
 .grid {
   position: relative;
 }
+
 .item {
   display: block;
   position: absolute;
@@ -186,15 +210,19 @@ input[type=text] {
   background: #000;
   color: #fff;
 }
+
 .item.muuri-item-dragging {
   z-index: 3;
 }
+
 .item.muuri-item-releasing {
   z-index: 2;
 }
+
 .item.muuri-item-hidden {
   z-index: 0;
 }
+
 .item-content {
   position: relative;
   width: 100%;
@@ -351,36 +379,4 @@ a.lightbox-close:after {
 
 .lightbox-target:target a.lightbox-close {
   top: 0px;
-}
-
-
-
-.about {
-  position:relative;
-  right:290px;
-  top:10px;
-}
-
-.mb {
-  position:relative;
-  right:790px;
-  top:125px;
-}
-
-.pf {
-  position:relative;
-  right:190px;
-  top:160px;
-}
-
-.phrop {
-  position:relative;
-  left:780px;
-  top:70px;
-}
-
-.quest {
-  position:relative;
-  left:240px;
-  top:-200px;
 }
