@@ -102,7 +102,7 @@ h1 {
 .page1 {
   display:inline-flex;
   position:relative;
-  right:150px;
+  right:250px;
 
 }
 .page2 {
@@ -190,6 +190,7 @@ h1 {
 h2 {
   color: black;
   font-family: monospace;
+  font-size: 2em;
 }
 
 img {

@@ -15,7 +15,7 @@ console.log('Hello from service-worker.js');
 
 
 function myFunction() {
-  alert("Welcome to Keele Creative Writing Society! Click on the symbols below to navigate the website! ");
+  alert("Welcome to Keele Creative Writing Society! Click on the button to go to page 2 where you will find symbols to navigate the website! ");
 }
 
 
