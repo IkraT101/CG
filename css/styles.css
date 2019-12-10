@@ -77,48 +77,57 @@ h1 {
 }
 
 .Cg {
+  display:inline-flex;
   position:relative;
   left:-200px;
   top:490px;
 }
 
 .wq {
+  display:inline-flex;
   position:relative;
   left:190px;
   top:450px;
 }
 
 #gif {
+  display:inline-flex;
+  width: 75%;
   position:relative;
   left:-380px;
   top:450px;
 }
 
 .about {
+  display:inline-flex;
   position:relative;
   right:290px;
   top:10px;
 }
 
 .mb {
+  display:inline-flex;
   position:relative;
   right:790px;
   top:125px;
 }
 
 .pf {
+  display:inline-flex;
   position:relative;
   right:190px;
   top:160px;
 }
 
 .phrop {
+  display:inline-flex;
   position:relative;
   left:780px;
   top:70px;
 }
 
 .quest {
+  display:inline-flex;
   position:relative;
   left:240px;
   top:-200px;
@@ -126,30 +135,35 @@ h1 {
 
 
 .about2 {
+    display:inline-flex;
   position:relative;
   right:290px;
   top:-120px;
 }
 
 .mb2 {
+    display:inline-flex;
   position:relative;
   right:790px;
   top:-25px;
 }
 
 .pf2 {
+    display:inline-flex;
   position:relative;
   right:190px;
   top:30px;
 }
 
 .phrop2 {
+    display:inline-flex;
   position:relative;
   left:780px;
   top:-80px;
 }
 
 .quest2 {
+    display:inline-flex;
   position:relative;
   left:240px;
   top:-330px;
@@ -333,7 +347,7 @@ a.lightbox-close:after {
   bottom: 0;
 }
 
-.item2{
+/* .item2{
   display: block;
   position: absolute;
   width: 200px;
@@ -342,7 +356,7 @@ a.lightbox-close:after {
   z-index: 1;
   background: red;
   color: white;
-}
+} */
 
 .item{
   display: block;
@@ -365,51 +379,53 @@ a.lightbox-close:after {
 }
 
 .about3 {
+    display:inline-flex;
   position:relative;
   right:290px;
   top:-120px;
 }
 
 .mb3 {
+  display:inline-flex;
   position:relative;
   right:790px;
   top:0px;
 }
 
 .pf3 {
+  display:inline-flex;
   position:relative;
   right:190px;
   top:60px;
 }
 
 .phrop3 {
+  display:inline-flex;
   position:relative;
   left:780px;
   top:-50px;
 }
 
 .quest3 {
+    display:inline-flex;
   position:relative;
   left:240px;
   top:-310px;
 }
 
- /* .wwts2 {
-  position:relative;
-  left: 600px;
 
-} */
-/*
-.video {
-  position:relative;
-   left: 50px;
-
-} */
 
 .video {
     display:inline-flex;
-    width: 75%;
-  padding-left: 100px;
+    width: 100%;
+  /* padding-top: 100px; */
+  position:relative;
+  left: 350px;
+}
 
-
+.wwts {
+    display:inline-flex;
+    width: 50%;
+    position:relative;
+    left: 50px;
 }

@@ -1,0 +1,47 @@
+body {
+  background-color: slategrey;
+  font-family: monospace;
+}
+h1 {
+  font: monospace
+}
+
+
+
+
+
+
+.about4 {
+    display:inline-flex;
+  position:relative;
+  right:290px;
+  top:-50px;
+}
+
+.mb4 {
+  display:inline-flex;
+  position:relative;
+  right:790px;
+  top:70px;
+}
+
+.pf4 {
+  display:inline-flex;
+  position:relative;
+  right:190px;
+  top:140px;
+}
+
+.phrop4 {
+  display:inline-flex;
+  position:relative;
+  left:780px;
+  top:20px;
+}
+
+.quest4 {
+  display:inline-flex;
+  position:relative;
+  left:240px;
+  top:-240px;
+}
