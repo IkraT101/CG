@@ -73,7 +73,7 @@ div {
 h1 {
   color: black;
   font-family: monospace;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .Cg {
@@ -94,8 +94,22 @@ h1 {
   display:inline-flex;
   width: 75%;
   position:relative;
-  left:-380px;
+  left:-340px;
   top:450px;
+}
+
+
+.page1 {
+  display:inline-flex;
+  position:relative;
+  right:150px;
+
+}
+.page2 {
+  display:inline-flex;
+  position:relative;
+  right:150px;
+
 }
 
 .about {
@@ -169,7 +183,9 @@ h1 {
   top:-330px;
 }
 
-
+.concorse {
+  font: monospace;
+}
 
 h2 {
   color: black;
@@ -428,4 +444,42 @@ a.lightbox-close:after {
     width: 50%;
     position:relative;
     left: 50px;
+}
+
+
+
+
+.about5 {
+    display:inline-flex;
+  position:relative;
+  right:290px;
+  top:-150px;
+}
+
+.mb5 {
+  display:inline-flex;
+  position:relative;
+  right:790px;
+  top:-40px;
+}
+
+.pf5 {
+  display:inline-flex;
+  position:relative;
+  right:190px;
+  top:30px;
+}
+
+.phrop5 {
+  display:inline-flex;
+  position:relative;
+  left:780px;
+  top:-90px;
+}
+
+.quest5 {
+    display:inline-flex;
+  position:relative;
+  left:240px;
+  top:-350px;
 }

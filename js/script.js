@@ -17,3 +17,14 @@ console.log('Hello from service-worker.js');
 function myFunction() {
   alert("Welcome to Keele Creative Writing Society! Click on the symbols below to navigate the website! ");
 }
+
+
+$('.myLinkToTop').click(function () {
+    $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+    return false;
+});
+
+$('.myMenuLink').click(function () {
+    $('html, body').animate({scrollTop:0}, 'slow');
+    return false;
+});
